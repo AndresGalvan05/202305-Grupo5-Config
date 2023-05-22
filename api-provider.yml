@@ -25,7 +25,7 @@ spring:
         format_sql: true
     show-sql: false
 
-urlCheck: http://localhost:8761
+urlCheck: http://localhost:8083
 
 eureka:
   instance:
