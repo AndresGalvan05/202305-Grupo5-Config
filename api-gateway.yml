@@ -10,11 +10,11 @@ spring:
         - id: api-customer
           uri: lb://api-customer
           predicates:
-            - Path = /api/v1/customer/**
+            - Path=/api/v1/customer/**
         - id: api-provider
           uri: lb://api-provider
           predicates:
-            - Path = /api/v1/provider/**
+            - Path=/api/v1/provider/**
             
 eureka:
   instance:
